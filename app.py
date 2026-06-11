@@ -13,7 +13,7 @@ load_dotenv()
 app = Flask(__name__)
 
 # ── Config ───────────────────────────────────────────────────
-VERIFY_TOKEN      = os.getenv("WHATSAPP_VERIFY_TOKEN")
+VERIFY_TOKEN = os.getenv("WHATSAPP_VERIFY_TOKEN", "myquranbot123")
 WHATSAPP_TOKEN    = os.getenv("WHATSAPP_TOKEN")
 PHONE_NUMBER_ID   = os.getenv("PHONE_NUMBER_ID")
 YOUR_NUMBER       = os.getenv("YOUR_WHATSAPP_NUMBER")

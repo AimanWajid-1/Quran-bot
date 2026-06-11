@@ -193,7 +193,7 @@ def verify_webhook():
     token     = request.args.get("hub.verify_token")
     challenge = request.args.get("hub.challenge")
 
-    if mode == "subscribe" and token == VERIFY_TOKEN:
+    if mode == "subscribe" and token == "myquranbot123":
         print("✅ Webhook verified!")
         return challenge, 200
     return "Forbidden", 403

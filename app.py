@@ -142,11 +142,11 @@ def send_whatsapp_message(to: str, message: str):
 
 # ── Daily prayer reminders ───────────────────────────────────
 PRAYER_TIMES = {
-    "Fajr":   "05:00",
-    "Dhuhr":  "13:00",
-    "Asr":    "16:30",
-    "Maghrib": "18:45",
-    "Isha":   "21:00",
+    "Fajr":    "00:00",  # 5:00 AM PKT
+    "Dhuhr":   "08:00",  # 1:00 PM PKT
+    "Asr":     "11:30",  # 4:30 PM PKT
+    "Maghrib": "13:45",  # 6:45 PM PKT
+    "Isha":    "16:00",  # 9:00 PM PKT
 }
 
 PRAYER_MESSAGES = {

@@ -123,3 +123,9 @@ YOUR_WHATSAPP_NUMBER    ← Your number for daily reminders
 ---
 
 *Built with the intention of making the Quran more accessible in daily life. May it be of benefit.* 🌙
+
+
+
+For more detals:
+
+📄 **[Download Full Deployment Guide (PDF)](./Quran_Bot_Deployment_Guide.pdf)**
